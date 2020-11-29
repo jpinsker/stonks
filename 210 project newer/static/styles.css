@@ -1,0 +1,78 @@
+div.outside{
+    height:100vh;
+    padding: 75px;
+}
+
+div.a{
+    border-style: inset;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+div.b{
+    border-style: outset;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+
+div.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: inset;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+div.c, .d{
+    flex: 1 1 0;
+}
+
+div.e{
+    font-family: "Gill Sans", sans-serif;
+    flex: 100%;
+    order: 3;
+    border-style: inset;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+
+input[type=submit]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+
+button[type=button]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+h1,h2,h3{
+    font-family: "Gill Sans", sans-serif;
+}
+
+h4,h5,h6{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
